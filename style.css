@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+}
+#title{
+    color:brown;
+}
+h1{
+    text-align: center
+    }
+h3{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: xx-large;
+   margin-top: 3%;
+   width: 15%;
+   margin-left: 45%;
+   text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    }
+ul li{
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+      }
+#fruList{
+      display: flex;
+      margin-left: 300px;
+      }
+#fruList, img{
+      object-fit: cover;
+      width: 150px;
+      height: 150px;
+      padding: 10px;
+      border-radius: 20%;
+      }
+#vegList{
+        display: flex;
+        margin-left: 270px;
+        }
+#vegList, img{
+          object-fit: cover;
+          width: 150px;
+          height: 150px;
+          border-radius: 20%;
+          }
